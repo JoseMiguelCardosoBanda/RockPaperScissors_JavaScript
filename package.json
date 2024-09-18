@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cli-table": "^0.3.11",
+    "readline-sync": "^1.4.10"
+  }
+}
