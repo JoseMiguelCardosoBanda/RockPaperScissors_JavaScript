@@ -1,4 +1,10 @@
 const args = process.argv.slice(2);
+
+if(args[0] === undefined){
+    console.log("There are no moves to play");
+    return;
+}
+
 const readline = require("readline-sync");
 var Table = require('cli-table');
 const crypto = require("crypto");
